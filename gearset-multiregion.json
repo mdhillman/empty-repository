@@ -6,6 +6,10 @@
     "module-one": [
       "core",
       "module-one"
+    ],
+    "🥫": [
+      "core",
+      "🥫"
     ]
   }
 }
