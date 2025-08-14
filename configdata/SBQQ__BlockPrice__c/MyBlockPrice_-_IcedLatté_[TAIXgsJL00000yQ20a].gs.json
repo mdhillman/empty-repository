@@ -1,0 +1,35 @@
+{
+  "Object": "SBQQ__BlockPrice__c",
+  "Fields": {
+    "GearsetDisplayName": "MyBlockPrice - IcedLatté",
+    "GearsetExternalId__c": "TAIXgsJL00000yQ20a",
+    "Name": "MyBlockPrice",
+    "SBQQ__EffectiveDate__c": "",
+    "SBQQ__LowerBound__c": "1.0",
+    "SBQQ__Price__c": "1.5",
+    "SBQQ__UpperBound__c": "2.0"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__OriginalBlockPrice__r",
+      "ReferencedObject": "SBQQ__BlockPrice__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__PriceBook2__r",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "BAIt5uhD00000yQs10"
+      }
+    },
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "LAI3VmBL00000yQt10"
+      }
+    }
+  ]
+}

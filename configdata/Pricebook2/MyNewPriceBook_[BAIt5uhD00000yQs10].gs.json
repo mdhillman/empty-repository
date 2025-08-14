@@ -1,0 +1,11 @@
+{
+  "Object": "Pricebook2",
+  "Fields": {
+    "Description": "",
+    "GearsetDisplayName": "MyNewPriceBook",
+    "GearsetExternalId__c": "BAIt5uhD00000yQs10",
+    "IsActive": "true",
+    "Name": "MyNewPriceBook"
+  },
+  "References": []
+}
